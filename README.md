@@ -13,6 +13,6 @@
 
 ![image](https://user-images.githubusercontent.com/114501385/192592804-417ffe28-39e0-4b10-afb1-f0e9c8fbf28c.png)
 
-- แสดงชื่อและโลโก้ของทีมที่ได้ Kill มากที่สุด
+- แสดงชื่อและโลโก้ของทีมที่ได้ Kill มากที่สุดเมื่อหมดเวลาการแข่งขัน
 
 ![SPOILER_unknown](https://user-images.githubusercontent.com/114501385/192592954-8723df93-3f1d-4008-bb39-df328c031e30.png)
