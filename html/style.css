@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@300&family=Source+Serif+Pro:ital,wght@0,200;1,600&family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: none;
+    color: white;
+    font-size: 100%;
+    text-shadow: 1px 1px #202020;
+    overflow: hidden;
+    /* left: 10%; */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-gangs {
+    position: absolute;
+    margin-top: 15%;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.25% 0.5% 0.5% 0.5%;
+    right: 0;
+    border-radius: 0% 0% 0% 2%;
+}
+
+.container-time {
+    position: absolute;
+    width: 16%;
+    /* text-align: center; */
+    top: 22.5%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0%;
+    border-radius: 2% 0% 0% 0%;
+    background-image: url('https://media.discordapp.net/attachments/717968342434185246/982999566704062484/head1_1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-winner {
+    position: absolute;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  */
+}
+
+.winner-logo {
+    width: 18rem;
+    height: 18rem;
+    padding: 4rem;
+}
+
+.winner-label {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.victory {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    /* padding: 5rem; */
+}
+
+.box-time {
+    width: 100%;
+    /* background-color: rgba(1, 1, 1, 0.622); */
+    /* padding: 5px; */
+    /* margin: 5px; */
+    border-radius: 15px;
+}
+
+.header {
+    font-size: 100%;
+    margin-left: 33%;
+}
+
+#time-countdown {
+    font-size: 100%;
+    margin-left: 33%;
+}
+
+#items {
+    display: flex;
+    background-color: rgba(177, 177, 177, 0.1);
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;  */
+    margin-top: 5px;
+    /* padding: 10px; */
+    border-radius: 1%;
+}
+
+.box-img {
+    padding: 10px 3px 5px 8px;
+}
+
+.box-name {
+    padding: 15px 0px 0px 0px;
+    margin-left: 5%;
+}
+
+.box-score {
+    /* text-align: center; */
+    position: absolute;
+    padding: 15px 0px 0px 0px;
+    margin-left: 65%;
+}
+
+#imgLink {
+    /* transform: translateY(-50%); */
+    width: 3.5vmin;
+    height: 3.5vmin;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
